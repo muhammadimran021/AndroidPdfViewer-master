@@ -2,13 +2,16 @@ buildscript {
     repositories {
         google()
         jcenter()
+        mavenCentral()
     }
 }
 
 repositories {
     google()
     jcenter()
+    mavenCentral()
 }
+
 
 apply plugin: 'com.android.application'
 
@@ -19,14 +22,15 @@ android {
         minSdkVersion 14
         targetSdkVersion 33
         versionCode 3
-        versionName "3.0.0"
+        versionName "3.0.1"
     }
 
 }
 
 dependencies {
-    implementation project(':android-pdf-viewer')
+//    implementation project(':android-pdf-viewer')
     implementation 'androidx.appcompat:appcompat:1.0.0'
     implementation 'org.androidannotations:androidannotations-api:4.6.0'
     annotationProcessor "org.androidannotations:androidannotations:4.6.0"
+    implementation 'com.github.muhammadimran021:AndroidPdfViewer-master:3.0.0-alpha01'
 }
