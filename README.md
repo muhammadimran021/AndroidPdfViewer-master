@@ -4,6 +4,7 @@
 # Installation
 
 Add to build.gradle:
+
 implementation 'com.github.muhammadimran021:AndroidPdfViewer-master:3.0.1-alpha01'
 
 __For Implementation please check [AndroidPdfViewerV1](https://github.com/barteksc/AndroidPdfViewerV1)
