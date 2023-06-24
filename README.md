@@ -1,8 +1,10 @@
 
-# Looking for new maintainer!
-
-
 # Android PdfViewer
+
+# Installation
+
+Add to build.gradle:
+implementation 'com.github.muhammadimran021:AndroidPdfViewer-master:3.0.1-alpha01'
 
 __For Implementation please check [AndroidPdfViewerV1](https://github.com/barteksc/AndroidPdfViewerV1)
 repo, where can be developed independently. Version 1.x uses different engine for drawing document on canvas,
